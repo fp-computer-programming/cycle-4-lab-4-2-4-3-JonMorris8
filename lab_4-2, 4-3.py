@@ -19,3 +19,17 @@ provided by the user and return if the strings are equal, one string is greater 
 
 
 """
+#author Jon Morris
+#lab 4-2
+school = "Fairfield Prep"
+print (school[0:9])
+print (school[10:])
+
+#lab 4-3
+word = input ("word?")
+if word == "Fairfield Prep":
+    print ("Fairfield Prep")
+elif word > "Fairfield Prep":
+    print (word + "comes after Fairfield PreP")
+else:
+    print (word)
